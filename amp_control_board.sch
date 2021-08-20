@@ -44,17 +44,6 @@ Text Notes 650  3300 0    50   ~ 0
 POWER
 Text GLabel 950  900  0    50   Input ~ 0
 VIN_DC
-$Comp
-L MCU_ST_STM32F1:STM32F103C8Tx U5
-U 1 1 610AD893
-P 13750 5800
-F 0 "U5" H 13700 4211 50  0000 C CNN
-F 1 "STM32F103C8Tx" H 13700 4120 50  0000 C CNN
-F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 13150 4400 50  0001 R CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 13750 5800 50  0001 C CNN
-	1    13750 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13550 7300 13550 7600
 Wire Wire Line
@@ -131,7 +120,7 @@ U 1 1 610C936D
 P 14350 8600
 F 0 "C16" H 14465 8646 50  0000 L CNN
 F 1 "100n" H 14465 8555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 14388 8450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 14388 8450 50  0001 C CNN
 F 3 "~" H 14350 8600 50  0001 C CNN
 	1    14350 8600
 	1    0    0    -1  
@@ -142,7 +131,7 @@ U 1 1 610C98DD
 P 15150 8600
 F 0 "C18" H 15265 8646 50  0000 L CNN
 F 1 "100n" H 15265 8555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 15188 8450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 15188 8450 50  0001 C CNN
 F 3 "~" H 15150 8600 50  0001 C CNN
 	1    15150 8600
 	1    0    0    -1  
@@ -371,7 +360,7 @@ U 1 1 61155285
 P 12700 8600
 F 0 "C13" H 12815 8646 50  0000 L CNN
 F 1 "100n" H 12815 8555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 12738 8450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 12738 8450 50  0001 C CNN
 F 3 "~" H 12700 8600 50  0001 C CNN
 	1    12700 8600
 	1    0    0    -1  
@@ -382,7 +371,7 @@ U 1 1 6115528B
 P 13550 8600
 F 0 "C15" H 13665 8646 50  0000 L CNN
 F 1 "100n" H 13665 8555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 13588 8450 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" H 13588 8450 50  0001 C CNN
 F 3 "~" H 13550 8600 50  0001 C CNN
 	1    13550 8600
 	1    0    0    -1  
@@ -670,7 +659,7 @@ U 1 1 611D2172
 P 3750 2450
 F 0 "C9" H 3865 2496 50  0000 L CNN
 F 1 "10u" H 3865 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 3750 2450 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 3750 2450 50  0001 C CNN
 F 3 "~" H 3750 2450 50  0001 C CNN
 	1    3750 2450
 	1    0    0    -1  
@@ -1291,17 +1280,6 @@ F 3 "~" H 8550 7900 50  0001 C CNN
 	1    8550 7900
 	-1   0    0    1   
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 J3
-U 1 1 61352A05
-P 6200 7850
-F 0 "J3" H 6280 7892 50  0000 L CNN
-F 1 "Screw_Terminal_01x03" H 6280 7801 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 6200 7850 50  0001 C CNN
-F 3 "~" H 6200 7850 50  0001 C CNN
-	1    6200 7850
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	8750 7800 9000 7800
 Wire Wire Line
@@ -1475,9 +1453,6 @@ Wire Wire Line
 	14350 6400 14600 6400
 NoConn ~ 13050 5200
 NoConn ~ 13050 5700
-NoConn ~ 13050 5900
-NoConn ~ 13050 6000
-NoConn ~ 13050 6100
 NoConn ~ 13050 6500
 NoConn ~ 13050 6600
 NoConn ~ 13050 6700
@@ -1605,7 +1580,7 @@ U 1 1 6113359B
 P 1100 1200
 F 0 "C1" H 1215 1246 50  0000 L CNN
 F 1 "1u" H 1215 1155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1138 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x12.5" H 1138 1050 50  0001 C CNN
 F 3 "~" H 1100 1200 50  0001 C CNN
 	1    1100 1200
 	1    0    0    -1  
@@ -1616,7 +1591,7 @@ U 1 1 6114C7D6
 P 2600 2450
 F 0 "C7" H 2715 2496 50  0000 L CNN
 F 1 "220n" H 2715 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2638 2300 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 2638 2300 50  0001 C CNN
 F 3 "~" H 2600 2450 50  0001 C CNN
 	1    2600 2450
 	1    0    0    -1  
@@ -2060,7 +2035,7 @@ U 1 1 61165420
 P 2300 1200
 F 0 "C5" H 2415 1246 50  0000 L CNN
 F 1 "220n" H 2415 1155 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 2338 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_10x10" H 2338 1050 50  0001 C CNN
 F 3 "~" H 2300 1200 50  0001 C CNN
 	1    2300 1200
 	1    0    0    -1  
@@ -2165,4 +2140,38 @@ Text GLabel 1550 8900 1    50   Input ~ 0
 VDD_3V3
 Text GLabel 4400 8850 1    50   Input ~ 0
 VDD_3V3
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U5
+U 1 1 610AD893
+P 13750 5800
+F 0 "U5" H 13700 4211 50  0000 C CNN
+F 1 "STM32F103C8Tx" H 13700 4120 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 13150 4400 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 13750 5800 50  0001 C CNN
+	1    13750 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13050 5900 12550 5900
+Wire Wire Line
+	13050 6000 12550 6000
+Wire Wire Line
+	13050 6100 12550 6100
+Text GLabel 12550 5900 0    50   Input ~ 0
+BTN_MODE
+Text GLabel 12550 6000 0    50   Input ~ 0
+BTN_UP
+Text GLabel 12550 6100 0    50   Input ~ 0
+BTN_DOWN
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 6131EF38
+P 6200 7850
+F 0 "J3" H 6308 8131 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6308 8040 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6200 7850 50  0001 C CNN
+F 3 "~" H 6200 7850 50  0001 C CNN
+	1    6200 7850
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
