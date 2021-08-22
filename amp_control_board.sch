@@ -2152,16 +2152,16 @@ F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/da
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	13050 5900 12550 5900
+	13050 6100 12550 6100
 Wire Wire Line
 	13050 6000 12550 6000
 Wire Wire Line
-	13050 6100 12550 6100
-Text GLabel 12550 5900 0    50   Input ~ 0
+	13050 5900 12550 5900
+Text GLabel 12550 6100 0    50   Input ~ 0
 BTN_MODE
 Text GLabel 12550 6000 0    50   Input ~ 0
 BTN_UP
-Text GLabel 12550 6100 0    50   Input ~ 0
+Text GLabel 12550 5900 0    50   Input ~ 0
 BTN_DOWN
 $Comp
 L Connector:Conn_01x03_Male J3
@@ -2175,4 +2175,48 @@ F 3 "~" H 6200 7850 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 NoConn ~ 1800 1000
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61241D96
+P 1000 6850
+F 0 "H1" H 1100 6896 50  0000 L CNN
+F 1 "MountingHole" H 1100 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1000 6850 50  0001 C CNN
+F 3 "~" H 1000 6850 50  0001 C CNN
+	1    1000 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 612435FE
+P 1750 6850
+F 0 "H2" H 1850 6896 50  0000 L CNN
+F 1 "MountingHole" H 1850 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 1750 6850 50  0001 C CNN
+F 3 "~" H 1750 6850 50  0001 C CNN
+	1    1750 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 612444F6
+P 2500 6850
+F 0 "H3" H 2600 6896 50  0000 L CNN
+F 1 "MountingHole" H 2600 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 2500 6850 50  0001 C CNN
+F 3 "~" H 2500 6850 50  0001 C CNN
+	1    2500 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 612453FE
+P 3250 6850
+F 0 "H4" H 3350 6896 50  0000 L CNN
+F 1 "MountingHole" H 3350 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.5mm_Pad" H 3250 6850 50  0001 C CNN
+F 3 "~" H 3250 6850 50  0001 C CNN
+	1    3250 6850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
